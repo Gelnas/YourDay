@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="340.0" style="-fx-background-color: #efa94a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerAuth">
+   <children>
+      <AnchorPane fx:id="window" layoutY="75.0" prefHeight="391.0" prefWidth="340.0" style="-fx-background-color: #f7d6a3;">
+         <children>
+            <Button fx:id="dropbox" layoutX="135.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #f7d6a3; -fx-background-image: url(C:\javaSolution\YouDay\img\sh.png); " text="Dropbox">
+               <font>
+                  <Font name="Cooper Black" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="help" layoutX="225.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #f7d6a3;" text="Help">
+               <font>
+                  <Font name="Cooper Black" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="setup" fitHeight="25.0" fitWidth="23.0" layoutX="304.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/sh.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="screen" layoutX="36.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #f7d6a3; -fx-background-image: url(C:\javaSolution\YouDay\img\sh.png); " text="Screen">
+               <font>
+                  <Font name="Cooper Black" size="12.0" />
+               </font>
+            </Button>
+            <Text layoutX="21.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Authorization" textAlignment="CENTER" wrappingWidth="297.8203125">
+               <font>
+                  <Font name="Cooper Black" size="33.0" />
+               </font>
+            </Text>
+            <TextField fx:id="login" layoutX="64.0" layoutY="147.0" prefHeight="29.0" prefWidth="213.0" promptText="Login" />
+            <PasswordField fx:id="password" layoutX="64.0" layoutY="196.0" prefHeight="29.0" prefWidth="213.0" promptText="Password" />
+            <Button fx:id="enter" layoutX="123.0" layoutY="267.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="94.0" style="-fx-background-color: #fdeaa8;" text="Enter" />
+            <Button fx:id="reg" layoutX="201.0" layoutY="346.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="40.0" style="-fx-background-color: #f7d6a3;" text="here" textFill="#0d00ff" />
+            <Text layoutX="50.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you are not registered, click " wrappingWidth="162.0" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="92.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You Day">
+         <font>
+            <Font name="Cooper Black" size="40.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
